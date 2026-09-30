@@ -136,14 +136,6 @@ Exfiltració oculta de memòria: Dissenyar un script o mòdul del kernel per rea
 
 Desplegament d'infraestructura C2: Instal·lar un entorn de Comandament i Control (com ara Sliver) i verificar la modificació de l'arrencada mitjançant les ordres systemctl get-default i systemd-analyze.
 
-Per a que l'estreaming funcioni en wayland (per les seves proteccions d'acces) he hagut de primer instal·lar les següents dependencies:
-```bash
-sudo apt install ffmpeg pipewire wireplumber xdg-desktop-portal xdg-desktop-portal-gnome -y
-```
-
-![alt text](image-11.png)
-![alt text](image-12.png)
-
 ### Gen
 
 En
